@@ -36,6 +36,7 @@
     "enquirer": "^2.3.6"
   },
   "devDependencies": {
+    "@babel/cli": "^7.12.16",
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@babel/preset-env": "^7.12.16",
