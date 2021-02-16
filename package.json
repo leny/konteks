@@ -1,6 +1,6 @@
 {
   "name": "@leny/konteks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Dev env & config for NodeJS",
   "files": [
     "bin"
@@ -32,7 +32,6 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^7.1.0",
-    "core-js": "^3.8.3",
     "cross-spawn": "^7.0.3",
     "enquirer": "^2.3.6"
   },
