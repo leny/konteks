@@ -32,6 +32,7 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "commander": "^7.1.0",
+    "core-js": "^3.8.3",
     "cross-spawn": "^7.0.3",
     "enquirer": "^2.3.6"
   },
