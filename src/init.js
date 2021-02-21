@@ -87,13 +87,11 @@ const {peerDependencies} = require("../package.json");
 
     const dependencies = Object.keys(peerDependencies);
 
-    withHook && dependencies.push("husky", "lint-staged");
+    withHook && dependencies.push("husky@4", "lint-staged");
 
-    spawnSync(
-        "npm",
-        ["i", "--save-dev"].concat(dependencies),
-        {stdio: "inherit"},
-    );
+    spawnSync("npm", ["i", "--save-dev"].concat(dependencies), {
+        stdio: "inherit",
+    });
 
     if (withHook) {
         const packagePath = path.resolve(process.cwd(), PACKAGE_JSON);
@@ -152,4 +150,3 @@ const {peerDependencies} = require("../package.json");
 
     console.log("🎉", chalk.green("Success!"));
 })();
-
